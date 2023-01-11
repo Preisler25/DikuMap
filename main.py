@@ -34,7 +34,7 @@ def genMap2(key, value):
     print(map)
     print(map[key])    
 
-#Ez a function vissza adja a lista azon 2elemét amiknek az összege egyenlő a target értékévek
+#Ez a function vissza adja a lista azon 2elemének az indexét amiknek az összege egyenlő a target értékévek
 def algorithm(lista: list, target: int):
     IndexMap = dict() #Ez ugyan olyan mintha egy üres Könyvtárat hoztunk létre IndexMap = {}
     for i in range(len(lista)):
